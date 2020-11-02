@@ -5,18 +5,21 @@ Code and Data corresponding to the paper "Generating Physically Sound Training D
 ### Blender Phong Shading for image rendering
 
 The training images are rendered using Blender Phong Shading, which can be downloaded from the following link. 
+
 https://github.com/WeiTang114/BlenderPhong
 The script phong_multi_for_rotnet.py can be used for the creation of training images.
 
 ### Image Augmentation
 
 For augmentation, we have used the albumentations library.
+
 https://github.com/albumentations-team/albumentations
 It can be used via the image_augmentation.py script.
 
 ### RotationNet:
 
 For our evaluation we used RotationNet. It can be downloaded via:  
+
 https://github.com/kanezaki/rotationnet
 
 ### Raw data sets:
